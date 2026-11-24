@@ -1,0 +1,17 @@
+{
+  "name": "ai-readiness-consortium",
+  "version": "1.0.0",
+  "description": "Global University Consortium of AI Readiness — full-stack with SQLite",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
